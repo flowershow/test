@@ -1,3 +1,8 @@
+---
+date: 2024-01-01
+authors: [Joe]
+---
+
 # Blog home page
 
 ## Obsidian wiki-links
