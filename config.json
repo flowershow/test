@@ -1,5 +1,6 @@
 {
     "title": "Site title test",
     "description": "Site description test",
-    "author": "author name"
+    "author": "author name",
+    "test field": "value"
 }
