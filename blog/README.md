@@ -41,8 +41,8 @@
 
 ## CommonMark embeds
 
-`![../assets/image.jpg]([../assets/image.jpg])`
-![../assets/image.jpg]([../assets/image.jpg])
+`![../assets/image.jpg](../assets/image.jpg)`
+![../assets/image.jpg](../assets/image.jpg)
 
 `![/assets/image.jpg]([/assets/image.jpg])`
 ![/assets/image.jpg]([/assets/image.jpg])
