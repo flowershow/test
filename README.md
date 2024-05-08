@@ -6,6 +6,8 @@ Some description
 
 [[post-1]]
 
+[[blog/post-1]]
+
 [[./blog/post-1]]
 
 [[/blog/post-1]]
@@ -27,6 +29,8 @@ Some description
 
 [./blog/post-1](./blog/post-1)
 
+[blog/post-1](blog/post-1)
+
 [/blog/post-1](/blog/post-1)
 
 [/blog/post-1.md](/blog/post-1.md)
@@ -41,5 +45,11 @@ Some description
 
 `![/assets/image.jpg](/assets/image.jpg)`
 ![/assets/image.jpg](/assets/image.jpg)
+
+‼️ Obsidian's shortest-path to /projects/index.md
+[[index]]
+
+[[projects/index]]
+
 
 
