@@ -4,5 +4,5 @@
     "description": "Site description test",
     "author": "author name",
     "test field": "value",
-    "navLinks": [{href: "/", name: "home"}]
+    "navLinks": [{"href": "/", "name": "home"}]
 }
