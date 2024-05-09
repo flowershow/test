@@ -1,6 +1,8 @@
 {
     "title": "Site title test",
+    "logo": "https://picsum.photos/200",
     "description": "Site description test",
     "author": "author name",
-    "test field": "value"
+    "test field": "value",
+    "navLinks": [{href: "/", name: "home"}]
 }
