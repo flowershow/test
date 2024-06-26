@@ -1,6 +1,6 @@
 # Some title
 
-Some description
+Some description ...
 
 ## Obsidian wiki-links
 
