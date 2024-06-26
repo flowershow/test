@@ -2,6 +2,8 @@
 
 ## Obsidian wiki-links
 
+<div data-testid="obsidian-wiki-links">
+
 [[post-1]]
 
 [[./post-1]]
@@ -13,6 +15,8 @@
 [[../README.md]]
 
 [[/README]]
+
+</div>
 
 ## Obsidian embeds
 
