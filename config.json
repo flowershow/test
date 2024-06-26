@@ -1,7 +1,7 @@
 {
     "title": "Test site title",
     "description": "Test site description",
-    "logo": "https://picsum.photos/200",
+    "logo": "logo.jpeg",
     "navLinks": [{"href": "/", "name": "home"}],
     "showSidebar": true
 }
