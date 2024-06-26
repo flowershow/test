@@ -10,11 +10,11 @@
 
 [[/blog/post-1]]
 
-[[/blog/post-1.md]]
+[[/README]]
 
 [[../README]]
 
-[[/README]]
+[[/blog/post-1.md]]
 
 </div>
 
