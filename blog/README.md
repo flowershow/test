@@ -20,6 +20,8 @@
 
 ## Obsidian embeds
 
+<div data-testid="obsidian-embeds">
+
 `![[image.jpg]]`
 ![[image.jpg]] 
 
@@ -29,7 +31,11 @@
 `![[/assets/image.jpg]]`
 ![[/assets/image.jpg]]
 
+</div>
+
 ## CommonMark links
+
+<div data-testid="common-mark-links">
 
 [post-1](post-1)
 
@@ -43,7 +49,11 @@
 
 [/README](/README)
 
+</div>
+
 ## CommonMark embeds
+
+<div data-testid="common-mark-embeds">
 
 `![../assets/image.jpg](../assets/image.jpg)`
 ![../assets/image.jpg](../assets/image.jpg)
@@ -51,4 +61,4 @@
 `![/assets/image.jpg](/assets/image.jpg)`
 ![/assets/image.jpg](/assets/image.jpg)
 
-
+</div>
