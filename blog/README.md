@@ -37,17 +37,15 @@
 
 <div data-testid="common-mark-links">
 
-[post-1](post-1)
+[post-1](post-1.md)
 
-[./post-1](./post-1)
+[./post-1](./post-1.md)
 
-[/blog/post-1](/blog/post-1)
+[/blog/post-1](/blog/post-1.md)
 
-[/blog/post-1.md](/blog/post-1.md)
+[/README](/README.md)
 
-[../README.md](../README.md)
-
-[/README](/README)
+[../README](../README.md)
 
 </div>
 
