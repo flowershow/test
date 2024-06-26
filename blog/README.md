@@ -1,4 +1,4 @@
-# Blog home page
+# Blog Index Page
 
 ## Obsidian wiki-links
 
