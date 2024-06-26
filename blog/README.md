@@ -12,7 +12,7 @@
 
 [[/blog/post-1.md]]
 
-[[../README.md]]
+[[../README]]
 
 [[/README]]
 
