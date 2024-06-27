@@ -53,7 +53,6 @@ datapackage:
     specType: simple
     title: View 1 Title
 ---
-
 # Datapackage with frontmatter title
 
 Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description
