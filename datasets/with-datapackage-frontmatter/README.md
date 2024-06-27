@@ -54,6 +54,6 @@ datapackage:
     title: View 1 Title
 ---
 
-# Test title
+# Test title: Datapackage with frontmatter
 
 Test description test description test description test description test description test description test description test description test description test description test description test description test description test description test description
