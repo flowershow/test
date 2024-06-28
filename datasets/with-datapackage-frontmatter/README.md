@@ -2,7 +2,7 @@
 datapackage:
   licenses:
   - name: license-1
-    path: "#"
+    path: "https://licence-1.com"
     title: License 1 Title
   resources:
   - encoding: utf-8
@@ -37,10 +37,10 @@ datapackage:
         type: number
   sources:
   - name: source-1
-    path: https://www.eia.gov/dnav/pet/hist_xls/RBRTEd.xls
+    path: "https://source-1.com"
     title: Source 1 Title
   - name: source-2
-    path: https://www.eia.gov/dnav/pet/hist_xls/RBRTEw.xls
+    path: "https://source-2.com"
     title: Source 2 Title
   views:
   - name: view-1
