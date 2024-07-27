@@ -6,6 +6,8 @@
 
 [[post-1]]
 
+[[README]]
+
 [[./post-1]]
 
 [[/blog/post-1]]
