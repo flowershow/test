@@ -18,9 +18,13 @@
 
 [[/blog/post-1.md]]
 
+</div>
+
+<div data-testid="obsidian-wiki-links-spaces-and-pluses">
+
 [[+ Post With Spaces and Plus Signs +]]
 
-</div>
+</>
 
 ## Obsidian embeds
 
