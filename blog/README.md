@@ -18,6 +18,8 @@
 
 [[/blog/post-1.md]]
 
+[[+ Post With Spaces and Plus Signs +]]
+
 </div>
 
 ## Obsidian embeds
