@@ -26,6 +26,8 @@
 
 </div>
 
+[[Post With Special Signs %&(1)+]]
+
 ## Obsidian embeds
 
 <div data-testid="obsidian-embeds">
