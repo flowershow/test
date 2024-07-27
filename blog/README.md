@@ -24,7 +24,7 @@
 
 [[+ Post With Spaces and Plus Signs +]]
 
-</>
+</div>
 
 ## Obsidian embeds
 
