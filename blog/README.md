@@ -20,13 +20,11 @@
 
 </div>
 
-<div data-testid="obsidian-wiki-links-spaces-and-pluses">
-
-[[+ Post With Spaces and Plus Signs +]]
-
-</div>
+<div data-testid="obsidian-wiki-links-special-signs">
 
 [[Post With Special Signs %&(1)+]]
+
+</div>
 
 ## Obsidian embeds
 
