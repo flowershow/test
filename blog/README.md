@@ -55,6 +55,8 @@
 
 [../README](../README.md)
 
+[External link](https://example.com)
+
 </div>
 
 ## CommonMark embeds
