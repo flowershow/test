@@ -3,5 +3,9 @@
     "description": "Test site description",
     "logo": "logo.jpeg",
     "navLinks": [{"href": "/", "name": "home"}],
-    "showSidebar": true
+    "showSidebar": true,
+    "author" : {
+        "name":"Tester Author",
+        "url" : "https://tester.author.com",
+    }
 }
