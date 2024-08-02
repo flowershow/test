@@ -5,9 +5,9 @@
     "navLinks": [{"href": "/", "name": "home"}],
     "showSidebar": true,
     "showEditLink" : true,
-    "showRepositoryLink":true,
     "author" : {
         "name":"Tester Author",
         "url" : "http://tester.author"
-    }
+    },
+    "contentExclude" : ["/blog/trash"]
 }
