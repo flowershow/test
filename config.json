@@ -10,5 +10,5 @@
         "url" : "http://tester.author"
     },
     "contentExclude" : ["/blog/trash"],
-    "contentInclude" : ["/blog/trash/index.md"]
+    "contentInclude" : ["/README.md","/blog","/assets","/datasets"]
 }
