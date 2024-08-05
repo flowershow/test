@@ -1,3 +1,3 @@
-## Although this is in trash...
+## Trash index
 
-It is explicitly defined in contentInclude array therefore it is shown.
+Trash folder
