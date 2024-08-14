@@ -9,6 +9,6 @@
         "name":"Tester Author",
         "url" : "http://tester.author"
     },
-    "contentExclude" : ["/blog/trash"],
+    "contentExclude" : ["/blog/trash", "/blog/trash-article.md"],
     "contentInclude" : ["/README.md","/blog","/assets","/datasets"]
 }
