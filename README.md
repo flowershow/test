@@ -1,4 +1,14 @@
-# DataHub Cloud Test Repo
+---
+title: DataHub Cloud Test Repo
+datapackage:
+  name: test
+  title: Test
+  resources:
+    - name: test
+      path: data/test.csv
+      format: csv
+      mediatype: text/csv
+---
 
 ## Title A
 
