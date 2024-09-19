@@ -5,6 +5,7 @@ datapackage:
   title: Test
   resources:
     - name: test
+      id: test123
       path: data/test.csv
       format: csv
       mediatype: text/csv
