@@ -35,7 +35,7 @@ datapackage:
         groupChar: ''
         name: Price
         type: number
-    - encoding: utf-8
+- encoding: utf-8
     format: csv
     name: resource-3
     path: https://external-data.org/resource-3.csv
