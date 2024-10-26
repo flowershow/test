@@ -23,22 +23,7 @@ datapackage:
   - encoding: utf-8
     format: csv
     name: resource-2
-    path: data/resource-2.csv
-    profile: tabular-data-resource
-    schema:
-      fields:
-      - format: "%Y-%m-%d"
-        name: Date
-        type: date
-      - decimalChar: "."
-        format: default
-        groupChar: ''
-        name: Price
-        type: number
-  - encoding: utf-8
-    format: csv
-    name: resource-3
-    path: https://external-data.org/resource-3.csv
+    path: https://external-data.org/resource-2.csv
     profile: tabular-data-resource
     schema:
       fields:
