@@ -35,6 +35,21 @@ datapackage:
         groupChar: ''
         name: Price
         type: number
+    - encoding: utf-8
+    format: csv
+    name: resource-3
+    path: https://external-data.org/resource-3.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+      - format: "%Y-%m-%d"
+        name: Date
+        type: date
+      - decimalChar: "."
+        format: default
+        groupChar: ''
+        name: Price
+        type: number
   sources:
   - name: source-1
     path: "https://source-1.com"
@@ -53,6 +68,7 @@ datapackage:
     specType: simple
     title: View 1 Title
 ---
+
 # Datapackage with frontmatter title
 
 Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description Datapackage with frontmatter description
