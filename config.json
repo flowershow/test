@@ -10,7 +10,7 @@
         ],
         "social": [
             {"href": "https://discord.link/abc", "name": "Discord", "label": "discord" }
-        ],
+        ]
     },
     "analytics": "ABC",
     "showEditLink" : true,
