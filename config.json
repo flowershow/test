@@ -2,12 +2,8 @@
     "title": "Test site title",
     "description": "Test site description",
     "logo": "logo.jpeg",
-    "navLinks": [{"href": "/", "name": "home"}],
+    "nav": [{"href": "/", "name": "home"}],
     "showEditLink" : true,
-    "author" : {
-        "name":"Tester Author",
-        "url" : "http://tester.author"
-    },
     "contentExclude" : ["/blog/trash", "/blog/trash-article.md"],
     "contentInclude" : ["config.json","/README.md","/blog","/assets", "/datasets", "/data"]
 }
