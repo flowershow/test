@@ -2,7 +2,10 @@
     "title": "Test site title",
     "description": "Test site description",
     "logo": "logo.jpeg",
-    "nav": [{"href": "/", "name": "home"}],
+    "nav": {
+        "links": [{"href": "/", "name": "home"}],
+        "title": "SiteName"
+    },
     "analytics": "ABC",
     "showEditLink" : true,
     "contentExclude" : ["/blog/trash", "/blog/trash-article.md"],
