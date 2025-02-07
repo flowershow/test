@@ -1,5 +1,6 @@
 ---
-title: DataHub Cloud Test Repo
+title: Page Title From Frontmatter
+description: Page Description From Frontmatter
 datapackage:
   name: test
   title: Test
