@@ -8,6 +8,5 @@
     },
     "analytics": "ABC",
     "showEditLink" : true,
-    "contentExclude" : ["/blog/trash", "/blog/trash-article.md"],
-    "contentInclude" : ["config.json","/README.md","/blog","/assets", "/datasets", "/data"]
+    "contentExclude" : ["/blog/trash", "/blog/trash-article.md"]
 }
