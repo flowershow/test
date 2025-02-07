@@ -3,6 +3,7 @@
     "description": "Test site description",
     "logo": "logo.jpeg",
     "nav": [{"href": "/", "name": "home"}],
+    "analytics": "ABC",
     "showEditLink" : true,
     "contentExclude" : ["/blog/trash", "/blog/trash-article.md"],
     "contentInclude" : ["config.json","/README.md","/blog","/assets", "/datasets", "/data"]
