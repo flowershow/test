@@ -3,7 +3,10 @@
     "description": "Test site description",
     "logo": "logo.jpg",
     "nav": {
-        "links": [{"href": "/", "name": "home"}],
+        "links": [
+            {"href": "/about", "name": "About"},
+            {"href": "/docs", "name": "Docs"}
+        ],
         "title": "SiteName"
     },
     "analytics": "ABC",
