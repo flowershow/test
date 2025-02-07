@@ -1,7 +1,7 @@
 {
     "title": "Test site title",
     "description": "Test site description",
-    "logo": "logo.jpeg",
+    "logo": "logo.jpg",
     "nav": {
         "links": [{"href": "/", "name": "home"}],
         "title": "SiteName"
