@@ -21,9 +21,11 @@
 </div>
 
 <div data-testid="obsidian-wiki-links-special-signs">
-
 [[Post With Special Signs %&(1)+]]
+</div>
 
+<div data-testid="obsidian-wiki-links-single-word-uppercase">
+[[Test]]
 </div>
 
 ## Obsidian embeds
