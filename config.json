@@ -14,5 +14,5 @@
     },
     "analytics": "ABC",
     "showEditLink" : true,
-    "contentExclude" : ["/blog/trash", "/blog/trash-article.md"]
+    "contentExclude" : ["/blog/archive", "/blog/not-ready.md"]
 }
