@@ -1,6 +1,6 @@
 ---
 title: John Doe
-avatar: ./john.jpg
+avatar: /team/john.jpg
 ---
 
 Lorem ipsum
