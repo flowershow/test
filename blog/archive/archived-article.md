@@ -1,3 +1,3 @@
-#Trash Article
+# Page in a folder excluded by `contentExclude` in the `config.json`
 
-This is a article that has been moved to trash!
+Lorem

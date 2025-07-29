@@ -1,8 +1,3 @@
----
-publish: false
----
+# Page excluded by `contentExclude` in the `config.json`
 
-# This is a Draft File that should not be shown.
-
-
-Lorem ipsum dolor
+Lorem ipsum
