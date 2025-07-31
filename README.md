@@ -3,7 +3,7 @@ title: Page Title From Frontmatter
 description: Page Description From Frontmatter
 ---
 
-<img alt="Image" src="logo.jpg"/>
+<img alt="Image" src="assets/image.jpg"/>
 
 ## Title A
 
