@@ -14,5 +14,17 @@
     },
     "analytics": "ABC",
     "showEditLink" : true,
-    "contentExclude" : ["/blog/archive", "/blog/draft-article.md"]
+    "contentExclude" : ["/blog/archive", "/blog/draft-article.md"],
+    "redirects": [
+        {
+          "from": "/old-page",
+          "to": "/new-page",
+          "permanent": true
+        },
+        {
+          "from": "/temp-old",
+          "to": "/temp-new",
+          "permanent": false
+        }
+    ]
 }
