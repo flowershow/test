@@ -1,15 +1,6 @@
 ---
 title: Page Title From Frontmatter
 description: Page Description From Frontmatter
-datapackage:
-  name: test
-  title: Test
-  resources:
-    - name: test
-      id: test123
-      path: data/test.csv
-      format: csv
-      mediatype: text/csv
 ---
 
 ## Title A
