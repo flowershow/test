@@ -12,8 +12,9 @@
             {"href": "https://discord.link/abc", "name": "Discord", "label": "discord" }
         ]
     },
-    "analytics": "ABC",
     "showEditLink" : true,
+    "showSidebar": true,
+    "analytics": "ABC",
     "contentExclude" : ["/blog/archive", "/blog/draft-article.md"],
     "redirects": [
         {
