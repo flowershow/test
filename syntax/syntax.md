@@ -15,18 +15,20 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 </div>
 
 <div data-testid="obsidian-wiki-link-relative">
+❌ This won't work atm
 [[../blog/post-1]]
 </div>
 
-<div data-testid="obsidian-wiki-link-short-readme">
+<div data-testid="obsidian-wiki-link-readme">
 [[README]]
 </div>
 
-<div data-testid="obsidian-wiki-link-short-readme-2">
+<div data-testid="obsidian-wiki-link-readme-blog">
 [[blog/README]]
 </div>
 
 <div data-testid="obsidian-wiki-link-relative-readme">
+❌ This won't work atm
 [[../README]]
 </div>
 
