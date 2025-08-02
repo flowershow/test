@@ -39,17 +39,21 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 
 ### Obsidian embeds
 
-<div data-testid="obsidian-embeds">
-
-`![[image.jpg]]`
+<div data-testid="obsidian-embed">
 ![[image.jpg]] 
+</div>
 
-`![[../assets/image.jpg]]`
+<div data-testid="obsidian-embed-absolute">
+![[assets/image.jpg]] 
+</div>
+
+<div data-testid="obsidian-embed-relative">
+❌ This won't work atm
 ![[../assets/image.jpg]]
+</div>
 
-`![[/assets/image.jpg]]`
-![[/assets/image.jpg]]
-
+<div data-testid="obsidian-embed-special-signs">
+![[Image With Special Chars %&(1)+.jpg]] 
 </div>
 
 ### CommonMark links
