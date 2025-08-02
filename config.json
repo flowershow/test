@@ -15,7 +15,7 @@
     "showEditLink" : true,
     "showSidebar": true,
     "analytics": "ABC",
-    "contentExclude" : ["/blog/archive", "/blog/draft-article.md"],
+    "contentExclude" : ["/blog/archive", "/blog/draft-post.md"],
     "redirects": [
         {
           "from": "/old-page",
