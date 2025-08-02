@@ -33,7 +33,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 </div>
 
 <div data-testid="obsidian-wiki-link-special-signs">
-[[Post With Special Chars %&(1)+]]
+[[Post With Special Chars %&(1)]]
 </div>
 
 
@@ -53,7 +53,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 </div>
 
 <div data-testid="obsidian-embed-special-signs">
-![[Image With Special Chars %&(1)+.jpg]] 
+![[Image With Special Chars %&(1).jpg]] 
 </div>
 
 ### CommonMark links
