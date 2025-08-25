@@ -89,5 +89,5 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ## JSX blocks
 
 <div data-testid="jsx-img">
-  <img alt="Image" src="assets/image.jpg"/>
+  <img alt="Image" src="/assets/image.jpg"/>
 </div>
