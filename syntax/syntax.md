@@ -1,4 +1,4 @@
-# Syntax
+# Syntax (MD rendering)
 
 ## Links
 
@@ -91,3 +91,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 <div data-testid="jsx-img">
   <img alt="Image" src="/assets/image.jpg"/>
 </div>
+
+## Problematic characters
+
+This sentence includes a special sign: <100 but should render without errors in this `.md` file

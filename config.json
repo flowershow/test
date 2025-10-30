@@ -28,5 +28,6 @@
           "to": "/temp-new",
           "permanent": false
         }
-    ]
+    ],
+    "markdownRenderer": "auto"
 }
