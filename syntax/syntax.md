@@ -26,7 +26,8 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 
 ![[assets/image.jpg]] 
 
-❌ This won't work atm
+❌ These don't work atm
+
 ![[../assets/image.jpg]]
 
 ![[Image With Special Chars %&(1).jpg]] 
