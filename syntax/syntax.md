@@ -6,59 +6,34 @@
 
 Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki-links, but will also work with Obsidian absolute paths.
 
-<div data-testid="obsidian-wiki-link">
 [[post-1]]
-</div>
 
-<div data-testid="obsidian-wiki-link-absolute">
 [[blog/post-1]]
-</div>
 
-<div data-testid="obsidian-wiki-link-relative">
 ❌ This won't work atm
 [[../blog/post-1]]
-</div>
 
-<div data-testid="obsidian-wiki-link-readme">
 [[README]]
-</div>
 
-<div data-testid="obsidian-wiki-link-readme-blog">
 [[blog/README]]
-</div>
 
-<div data-testid="obsidian-wiki-link-relative-readme">
 ❌ This won't work atm
 [[../README]]
-</div>
 
-<div data-testid="obsidian-wiki-link-special-signs">
 [[Post With Special Chars %&(1)]]
-</div>
-
 
 ### Obsidian embeds
 
-<div data-testid="obsidian-embed">
 ![[image.jpg]] 
-</div>
 
-<div data-testid="obsidian-embed-absolute">
 ![[assets/image.jpg]] 
-</div>
 
-<div data-testid="obsidian-embed-relative">
 ❌ This won't work atm
 ![[../assets/image.jpg]]
-</div>
 
-<div data-testid="obsidian-embed-special-signs">
 ![[Image With Special Chars %&(1).jpg]] 
-</div>
 
 ### CommonMark links
-
-<div data-testid="common-mark-links">
 
 [post-1](post-1.md)
 
@@ -72,11 +47,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 
 [External link](https://example.com)
 
-</div>
-
 ### CommonMark embeds
-
-<div data-testid="common-mark-embeds">
 
 `![../assets/image.jpg](../assets/image.jpg)`
 ![../assets/image.jpg](../assets/image.jpg)
@@ -84,15 +55,6 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 `![/assets/image.jpg](/assets/image.jpg)`
 ![/assets/image.jpg](/assets/image.jpg)
 
-</div>
-
-## JSX blocks
-
-<div data-testid="jsx-img">
-  <img alt="Image" src="/assets/image.jpg"/>
-</div>
-
 ## Problematic characters
 
 This sentence includes special MDX signs: 50 < 100 <100 <= 100 => 100> 100 > 50
-
