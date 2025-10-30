@@ -94,4 +94,4 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 
 ## Problematic characters
 
-This sentence includes a special sign: <100 but should render without errors in this `.md` file
+This sentence includes a special sign: < 100
