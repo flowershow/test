@@ -95,3 +95,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ## Problematic characters
 
 This sentence includes a special sign: < 100
+This sentence includes a special sign: <100
+This sentence includes a special sign: <= 100
+
+This sentence includes a special sign: { abc
