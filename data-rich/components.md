@@ -34,7 +34,7 @@ title: Data-rich components
 ```
 <PlotlyBarChart
   data={{
-    url: '/data/global-co2-emissions-2010.csv'
+    url: '/assets/global-co2-emissions-2010.csv'
   }}
   title="Emissions distribution in 2010"
   xAxis="Type"
@@ -44,7 +44,7 @@ title: Data-rich components
 
 <PlotlyBarChart
   data={{
-    url: '/data/global-co2-emissions-2010.csv'
+    url: '/assets/global-co2-emissions-2010.csv'
   }}
   title="Emissions distribution in 2010"
   xAxis="Type"
@@ -56,7 +56,7 @@ title: Data-rich components
 ```
 <PlotlyLineChart
   data={{
-    url: '/data/global-co2-emissions-2010.csv'
+    url: '/assets/global-co2-emissions-2010.csv'
   }}
   title="Emissions distribution in 2010"
   xAxis="Type"
@@ -66,7 +66,7 @@ title: Data-rich components
 
 <PlotlyLineChart
   data={{
-    url: '/data/global-co2-emissions-2010.csv'
+    url: '/assets/global-co2-emissions-2010.csv'
   }}
   title="Emissions distribution in 2010"
   xAxis="Type"
