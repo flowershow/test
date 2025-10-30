@@ -58,3 +58,12 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ## Problematic characters
 
 This sentence includes special MDX signs: 50 < 100 <100 <= 100 => 100> 100 > 50
+
+## HTML blocks
+
+```
+<span style="color: tomato; font-weight: bold;">This text is red and bold.</span>
+```
+
+<span style="color: tomato; font-weight: bold;">This text is red and bold.</span>
+
