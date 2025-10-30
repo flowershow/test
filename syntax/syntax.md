@@ -10,14 +10,12 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 
 [[blog/post-1]]
 
-❌ This won't work atm
 [[../blog/post-1]]
 
 [[README]]
 
 [[blog/README]]
 
-❌ This won't work atm
 [[../README]]
 
 [[Post With Special Chars %&(1)]]
