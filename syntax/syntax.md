@@ -86,7 +86,7 @@ Regular markdonw (CommonMark) image embed:
 →
 ![Cat](/assets/image.jpg)
 
-### Obsidian Wiki-links
+## Obsidian Wiki-links
 
 Flowershow supports **Obsidian-style wiki-links** too.
 
@@ -115,7 +115,7 @@ Flowershow supports **Obsidian-style wiki-links** too.
 → 
 ![[image.jpg]]
 
-### Math Equations
+## Math Equations
 
 ```
 Lift($$L$$) can be determined by Lift Coefficient ($$C_L$$) like the following
@@ -133,7 +133,7 @@ $$
 L = \frac{1}{2} \rho v^2 S C_L
 $$
 
-### Mermaid Diagrams
+## Mermaid Diagrams
 
 ```mermaid
 graph TD
@@ -144,7 +144,7 @@ graph TD
     D --> E
 ```
 
-### Obsidian Callouts
+## Obsidian Callouts
 
 > [!NOTE]
 > This is a note callout
@@ -158,13 +158,13 @@ graph TD
 > [!IMPORTANT]
 > This is an important callout
 
-### PDF Embeds
+## PDF Embeds
 
 `![[sample.pdf]]`
 
 ![[sample.pdf]]
 
-### Footnotes
+## Footnotes
 
 Here's a sentence with a footnote[^1].
 
@@ -185,3 +185,12 @@ In regular, **markdown rendering** these should render without any issue:
 
 <span style="color: tomato; font-weight: bold;">This text is red and bold.</span>
 
+## Other
+
+Links auto-linking
+
+https://flowershow.app/
+
+YouTube video auto-embedding
+
+https://youtu.be/ZbQRlNm2dww
