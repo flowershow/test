@@ -186,8 +186,17 @@ But these would throw an error:
 ## JSX blocks
 
 ```
-<span style="color: tomato; font-weight: bold;">This text is red and bold.</span>
+<span style={{ color: 'tomato', fontWeight: 'bold' }}>This text is red and bold.</span>
 ```
 
-<span style="color: tomato; font-weight: bold;">This text is red and bold.</span>
+<span style={{ color: 'tomato', fontWeight: 'bold' }}>This text is red and bold.</span>
+
+With Tailwind:
+
+```
+<span className="text-blue font-bold">This text is red and bold.</span>
+```
+
+<span className="text-blue font-bold">This text is red and bold.</span>
+
 
