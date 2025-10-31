@@ -6,9 +6,7 @@
 
 ~~Strikethrough text~~
 
-`Inline code`
-
-==Highlighted text== (🚧 [issue #894](https://github.com/flowershow/flowershow/issues/894))
+==Highlighted text==
 
 ## Lists
 
