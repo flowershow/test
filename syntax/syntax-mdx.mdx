@@ -1,110 +1,193 @@
-# Syntax (MDX rendering)
+# Full Syntax (MDX rendering)
 
-## Links
+## Text Formatting
 
-### Obsidian wiki-links
+**Bold text**, *italic text* and ***bold italic text***
 
-Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki-links, but will also work with Obsidian absolute paths.
+~~Strikethrough text~~
 
-<div data-testid="obsidian-wiki-link">
+`Inline code`
+
+==Highlighted text== (🚧 [issue #894](https://github.com/flowershow/flowershow/issues/894))
+
+## Lists
+
+Unordered list:
+* Item 1
+* Item 2
+  * Nested item 2.1
+  * Nested item 2.2
+* Item 3
+
+Ordered list:
+1. First item
+2. Second item
+   1. Nested item 2.1
+   2. Nested item 2.2
+3. Third item
+
+## Task Lists
+
+- [x] Completed task
+- [ ] Incomplete task
+- [ ] Another task
+  - [x] Nested completed task
+  - [ ] Nested incomplete task
+
+## Code Blocks
+
+Inline code: `const greeting = "Hello, World!";`
+
+Code blocks:
+```javascript
+// JavaScript example
+function calculateSum(a, b) {
+  return a + b;
+}
+const result = calculateSum(5, 3);
+console.log(result); // Output: 8
+```
+
+```python
+# Python example
+def greet(name):
+    return f"Hello, {name}!"
+print(greet("Flowershow"))
+```
+
+## Tables
+
+| Book Type | Average Length | Reading Time |
+|-----------|---------------|--------------|
+| Novel | 300 pages | 5 hours |
+| Magazine | 50 pages | 1 hour |
+| Comic Book | 30 pages | 30 minutes |
+| Cookbook | 200 pages | 2 hours |
+
+## Blockquotes
+
+> Single line quote
+
+> Multi-line quote
+> with multiple paragraphs
+> > Nested quote
+> > > Deeper nested quote
+
+## Links & Embeds
+
+Regular markdown (CommonMark) link:
+```md
+[Visit Flowershow](https://flowershow.app)
+```
+→ [Visit Flowershow](https://flowershow.app)
+
+Regular markdonw (CommonMark) image embed:
+```md
+![Cat](/assets/image.jpg)
+```
+→
+![Cat](/assets/image.jpg)
+
+### Obsidian Wiki-links
+
+Flowershow supports **Obsidian-style wiki-links** too.
+
+**Shortest-possible path:**
+```md
 [[post-1]]
-</div>
+```
+→ [[post-1]]
 
-<div data-testid="obsidian-wiki-link-absolute">
+**Absolute path:**
+```md
 [[blog/post-1]]
-</div>
+```
+→ [[blog/post-1]]
 
-<div data-testid="obsidian-wiki-link-relative">
-[[../blog/post-1]]
-</div>
+**With an alias:**
+```md
+[[post-1|Alias]]
+```
+→ [[post-1|Alias]]
 
-<div data-testid="obsidian-wiki-link-readme">
-[[README]]
-</div>
+**File embeds:**
+```md
+![[image.jpg]]
+```
+→ 
+![[image.jpg]]
 
-<div data-testid="obsidian-wiki-link-readme-blog">
-[[blog/README]]
-</div>
+### Math Equations
 
-<div data-testid="obsidian-wiki-link-relative-readme">
-[[../README]]
-</div>
+```
+Lift($$L$$) can be determined by Lift Coefficient ($$C_L$$) like the following
+equation.
 
-<div data-testid="obsidian-wiki-link-special-signs">
-[[Post With Special Chars %&(1)]]
-</div>
+$$
+L = \frac{1}{2} \rho v^2 S C_L
+$$
+```
 
+Lift($$L$$) can be determined by Lift Coefficient ($$C_L$$) like the following
+equation.
 
-### Obsidian embeds
+$$
+L = \frac{1}{2} \rho v^2 S C_L
+$$
 
-<div data-testid="obsidian-embed">
-![[image.jpg]] 
-</div>
+### Mermaid Diagrams
 
-<div data-testid="obsidian-embed-absolute">
-![[assets/image.jpg]] 
-</div>
+```mermaid
+graph TD
+    A[Start] --> B{Decision}
+    B -->|Yes| C[Do Something]
+    B -->|No| D[Do Nothing]
+    C --> E[End]
+    D --> E
+```
 
-<div data-testid="obsidian-embed-relative">
-❌ These don't work atm
-![[../assets/image.jpg]]
-</div>
+### Obsidian Callouts
 
-<div data-testid="obsidian-embed-special-signs">
-![[Image With Special Chars %&(1).jpg]] 
-</div>
+> [!NOTE]
+> This is a note callout
 
-### CommonMark links
+> [!WARNING]
+> This is a warning callout
 
-<div data-testid="common-mark-links">
+> [!BUG]
+> This is a bug callout
 
-[post-1](post-1.md)
+> [!IMPORTANT]
+> This is an important callout
 
-[./post-1](./post-1.md)
+### PDF Embeds
 
-[/blog/post-1](/blog/post-1.md)
+`![[sample.pdf]]`
 
-[/README](/README.md)
+![[sample.pdf]]
 
-[../README](../README.md)
+### Footnotes
 
-[External link](https://example.com)
+Here's a sentence with a footnote[^1].
 
-</div>
+[^1]: This is the footnote content.
 
-### CommonMark embeds
+## MDX special characters
 
-<div data-testid="common-mark-embeds">
+In **MDX rendering** only these should render without an error (Flowershow auto-escapes them):
+- 50 < 100 <100 <= 100 => 100> 100 > 50
 
-`![../assets/image.jpg](../assets/image.jpg)`
-![../assets/image.jpg](../assets/image.jpg)
-
-`![/assets/image.jpg](/assets/image.jpg)`
-![/assets/image.jpg](/assets/image.jpg)
-
-</div>
+But these would throw an error:
+```
+- <a, b>
+- {a, b}
+```
 
 ## JSX blocks
 
-<div data-testid="jsx-img">
-  <img alt="Image" src="/assets/image.jpg"/>
-</div>
-
-## Problematic characters
-
-This sentence includes special MDX signs: 50 < 100 <100 <= 100 => 100> 100 > 50
-
-## JSX blocks
-
 ```
-<span style={{ color: 'tomato', fontWeight: 'bold' }}>This text is red and bold.</span>
+<span style="color: tomato; font-weight: bold;">This text is red and bold.</span>
 ```
 
-<span style={{ color: 'tomato', fontWeight: 'bold' }}>This text is red and bold.</span>
+<span style="color: tomato; font-weight: bold;">This text is red and bold.</span>
 
-With Tailwind:
-```
-<span className="text-blue font-bold">This text is red and bold.</span>
-```
-
-<span className="text-blue font-bold">This text is red and bold.</span>
