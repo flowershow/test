@@ -137,7 +137,7 @@ Images:
 ```
 
 Images:  
-![Flowershow logo](../logo.jpg "Test image")
+![Flowershow logo](/logo.jpg "Test image")
 
 ## Tables (GFM)
 
