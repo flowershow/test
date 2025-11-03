@@ -122,14 +122,12 @@ Autolink (GFM auto-linking): https://flowershow.app
 ```
 Reference link style:  
 [Example][ref-1]
+
+[ref-1]: https://flowershow.app "Flowershow Site"
 ```
 
 Reference link style:  
 [Example][ref-1]
-
-```
-[ref-1]: https://flowershow.app "Flowershow Site"
-```
 
 [ref-1]: https://flowershow.app "Flowershow Site"
 
