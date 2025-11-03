@@ -1,6 +1,6 @@
-```
+---
 syntaxMode: mdx
-```
+---
 
 # .md file with `syntaxMode: mdx`
 
