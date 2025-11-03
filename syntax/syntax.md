@@ -3,7 +3,8 @@
 ## Text Formatting
 
 ```
-**Bold**, *italic*, ***bold italic***  
+**Bold**, *italic*, ***bold italic***
+Or with underscores: __Bold__, _italic_, ___bold italic___  
 ~~Strikethrough~~  
 ==Highlight==  
 `Inline code`  
@@ -11,6 +12,7 @@
 ```
 
 **Bold**, *italic*, ***bold italic***  
+Or with underscores: __Bold__, _italic_, ___bold italic___  
 ~~Strikethrough~~  
 ==Highlight==  
 `Inline code`  
