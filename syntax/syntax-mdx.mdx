@@ -98,7 +98,7 @@ ___
 
 `console.log("Hello")`
 
-### Indented code blocks
+### Indented code blocks ❌
 
 ```
     a simple indented code block
@@ -109,24 +109,8 @@ ___
 ### Fenced code blocks
 
 ```
-\`\`\`
-Plain code block with no language
-\`\`\`
-```
-
-```
 Plain code block with no language
 ```
-
-```
-~`~`~`
-With tildes
-~`~`~`
-```
-
-~~~
-With tildes
-~~~
 
 js
 ```js
