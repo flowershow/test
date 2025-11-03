@@ -20,10 +20,6 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 [[blog/README]]
 </div>
 
-<div data-testid="obsidian-wiki-link-to-asset">
-[[assets/sample.pdf]]
-</div>
-
 <div data-testid="obsidian-wiki-link-special-signs">
 [[Post With Special Chars %&(1)]]
 </div>
@@ -46,6 +42,11 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ![[Image With Special Chars %&(1).jpg]] 
 </div>
 
+❌ Doesn't work atm as it doesn't use /_r/- path (added only to embeds)
+<div data-testid="obsidian-wiki-link-to-asset">
+[[assets/sample.pdf]]
+</div>
+
 ## CommonMark links
 
 <div data-testid="common-mark-links">
@@ -62,9 +63,10 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 
 [External link](https://example.com)
 
-[sample](/assets/sample.pdf)
-
 [#Links%20in%20JSX%20blocks](#Links%20in%20JSX%20blocks)
+
+❌ Doesn't work atm as it doesn't use /_r/- path (added only to embeds)
+[sample](/assets/sample.pdf)
 
 </div>
 
