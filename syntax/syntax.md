@@ -2,11 +2,18 @@
 
 ## Text Formatting
 
+```
 **Bold**, *italic*, ***bold italic***  
 ~~Strikethrough~~  
 ==Highlight==  
 `Inline code`  
+<sub>Subscript</sub> and <sup>Superscript</sup> (HTML inline allowed)
+```
 
+**Bold**, *italic*, ***bold italic***  
+~~Strikethrough~~  
+==Highlight==  
+`Inline code`  
 <sub>Subscript</sub> and <sup>Superscript</sup> (HTML inline allowed)  
 
 ## Paragraphs & Line Breaks
@@ -16,15 +23,23 @@ New paragraph starts here.
 
 ## Blockquotes
 
+```
+> Quote level 1
+>> Quote level 2
+```
+
 > Quote level 1  
 >> Quote level 2  
 
 ## Horizontal Rules
 
+`---`
 ---
 
+`***`
 ***
 
+`___`
 ___
 
 ## Lists
@@ -78,14 +93,34 @@ Plain code block with no language
 
 ## Links
 
+```
+Standard: [Flowershow](https://flowershow.app)
+```
 Standard: [Flowershow](https://flowershow.app)
 
+```
 Autolink (GFM auto-linking): https://flowershow.app
+```
+Autolink (GFM auto-linking): https://flowershow.app
+
+```
+Reference link style:  
+[Example][ref-1]
+```
 
 Reference link style:  
 [Example][ref-1]
 
+```
 [ref-1]: https://flowershow.app "Flowershow Site"
+```
+
+[ref-1]: https://flowershow.app "Flowershow Site"
+
+```
+Images:  
+![Flowershow logo](../logo.jpg "Test image")
+```
 
 Images:  
 ![Flowershow logo](../logo.jpg "Test image")
@@ -99,17 +134,35 @@ Images:
 
 ## Footnotes (GFM)
 
+```
+Here is a footnote reference.[^1]
+
+[^1]: This is the footnote text.
+```
+
 Here is a footnote reference.[^1]
 
 [^1]: This is the footnote text.
 
 ## HTML Blocks (allowed in CommonMark)
 
+```
+<div>
+  <strong>Raw HTML block test</strong>
+</div>
+```
+
 <div>
   <strong>Raw HTML block test</strong>
 </div>
 
 ## Escape Characters
+
+```
+\*Not italic\*  
+\# Not heading  
+Backslash test: \\
+```
 
 \*Not italic\*  
 \# Not heading  
@@ -118,11 +171,6 @@ Backslash test: \\
 ## Emojis (GFM)
 
 👍 🎉 ✅
-
-## Definition List (not in CM/GFM but many parsers support)
-
-Term  
-: Definition text
 
 ## YouTube Link Autodetect
 
