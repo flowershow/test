@@ -133,7 +133,7 @@ Reference link style:
 
 ```
 Images:  
-![Flowershow logo](../logo.jpg "Test image")
+![Flowershow logo](/logo.jpg "Test image")
 ```
 
 Images:  
