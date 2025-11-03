@@ -35,13 +35,22 @@ New paragraph starts here.
 
 ## Horizontal Rules
 
-`---`
+```
+---
+```
+
 ---
 
-`***`
+```
+***
+```
+
 ***
 
-`___`
+```
+___
+```
+
 ___
 
 ## Lists
