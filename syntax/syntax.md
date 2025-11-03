@@ -158,15 +158,15 @@ Here is a footnote reference.[^1]
 
 [^1]: This is the footnote text.
 
-## HTML Blocks (allowed in CommonMark)
+## HTML Blocks
 
 ```
-<div>
+<div style="color:blue;">
   <strong>Raw HTML block test</strong>
 </div>
 ```
 
-<div>
+<div style="color:blue;">
   <strong>Raw HTML block test</strong>
 </div>
 
