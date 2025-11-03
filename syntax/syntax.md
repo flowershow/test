@@ -87,6 +87,12 @@ ___
 
 ### Fenced Blocks
 
+plain
+```
+Plain code block with no language
+```
+
+js
 ```js
 function greet(name) {
   return `Hello, ${name}!`;
@@ -94,12 +100,9 @@ function greet(name) {
 console.log(greet("world"));
 ```
 
+bash
 ```bash
 echo "shell test"
-```
-
-```
-Plain code block with no language
 ```
 
 ## Links
@@ -107,11 +110,13 @@ Plain code block with no language
 ```
 Standard: [Flowershow](https://flowershow.app)
 ```
+
 Standard: [Flowershow](https://flowershow.app)
 
 ```
 Autolink (GFM auto-linking): https://flowershow.app
 ```
+
 Autolink (GFM auto-linking): https://flowershow.app
 
 ```
