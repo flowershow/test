@@ -189,3 +189,41 @@ Backslash test: \\
 ## YouTube Link Autodetect
 
 https://youtu.be/ZbQRlNm2dww
+
+## Headings
+
+### ATX Headings
+
+```
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+```
+
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
+### Setext Headings (= and - underline)
+
+```
+Heading 1
+===============
+
+Heading 2
+---------------
+```
+
+Heading 1
+===============
+
+Heading 2
+---------------
+
+
