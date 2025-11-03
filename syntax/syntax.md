@@ -9,6 +9,8 @@ Or with underscores: __Bold__, _italic_, ___bold italic___
 ==Highlight==  
 `Inline code`  
 <sub>Subscript</sub> and <sup>Superscript</sup> (HTML inline allowed)
+Intraword emphasis: foo_bar_ vs foo__bar__.  
+Nested emphasis: *italic **bold** inside*.  
 ```
 
 **Bold**, *italic*, ***bold italic***  
@@ -17,6 +19,8 @@ Or with underscores: __Bold__, _italic_, ___bold italic___
 ==Highlight==  
 `Inline code`  
 <sub>Subscript</sub> and <sup>Superscript</sup> (HTML inline allowed)  
+Intraword emphasis: foo_bar_ vs foo__bar__.  
+Nested emphasis: *italic **bold** inside*.  
 
 ## Paragraphs & Line Breaks
 
