@@ -19,12 +19,33 @@ Or with underscores: __Bold__, _italic_, ___bold italic___
 ==Highlight==  
 `Inline code`  
 <sub>Subscript</sub> and <sup>Superscript</sup> (HTML inline allowed)  
-Intraword emphasis: foo_bar_ vs foo__bar__.  
+Intraword emphasis: foo_bar_ vs foo__bar__.  ❌
 Nested emphasis: *italic **bold** inside*.  
 
 ## Paragraphs & Line Breaks
 
-This line ends with two spaces to create a line break.  
+```
+This line ends with two spaces to create a hard line break.  
+New paragraph starts here.
+```
+
+This line ends with two spaces to create a hard line break.  
+New paragraph starts here.
+
+```
+This line ends with \ to create a hard line break.\
+New paragraph starts here.
+```
+
+This line ends with \ to create a hard line break.\
+New paragraph starts here.
+
+```
+This line ends with regular line break to create a hard soft break.
+New paragraph starts here.
+```
+
+This line ends with regular line break to create a hard soft break.
 New paragraph starts here.
 
 ## Blockquotes
