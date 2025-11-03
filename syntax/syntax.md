@@ -37,25 +37,13 @@ New paragraph starts here.
 > Quote level 1  
 >> Quote level 2  
 
-## Horizontal Rules
+## Thematic breaks
 
 ```
 ---
-```
-
----
-
-```
 ***
-```
-
-***
-
-```
 ___
 ```
-
-___
 
 ## Lists
 
@@ -89,12 +77,35 @@ ___
 
 `console.log("Hello")`
 
-### Fenced Blocks
+### Indented code blocks
 
-plain
+```
+    a simple indented code block
+```
+
+    a simple indented code block
+
+### Fenced code blocks
+
+```
+\`\`\`
+Plain code block with no language
+\`\`\`
+```
+
 ```
 Plain code block with no language
 ```
+
+```
+~`~`~`
+With tildes
+~`~`~`
+```
+
+~~~
+With tildes
+~~~
 
 js
 ```js
@@ -116,6 +127,12 @@ Standard: [Flowershow](https://flowershow.app)
 ```
 
 Standard: [Flowershow](https://flowershow.app)
+
+```
+With title: [Flowershow](https://flowershow.app "Title")
+```
+
+With title: [Flowershow](https://flowershow.app "Title")
 
 ```
 Autolink (GFM auto-linking): https://flowershow.app
@@ -214,7 +231,7 @@ https://youtu.be/ZbQRlNm2dww
 ##### Heading 5
 ###### Heading 6
 
-### Setext Headings (= and - underline)
+### Setext Headings
 
 ```
 Heading 1
