@@ -1,174 +1,274 @@
-# Full Syntax (MDX rendering)
+# Full Syntax Test (CommonMark + GFM) - MDX rendering
 
 ## Text Formatting
 
-**Bold text**, *italic text* and ***bold italic text***
-
-~~Strikethrough text~~
-
-==Highlighted text==
-
-## Lists
-
-Unordered list:
-* Item 1
-* Item 2
-  * Nested item 2.1
-  * Nested item 2.2
-* Item 3
-
-Ordered list:
-1. First item
-2. Second item
-   1. Nested item 2.1
-   2. Nested item 2.2
-3. Third item
-
-## Task Lists
-
-- [x] Completed task
-- [ ] Incomplete task
-- [ ] Another task
-  - [x] Nested completed task
-  - [ ] Nested incomplete task
-
-## Code Blocks
-
-Inline code: `const greeting = "Hello, World!";`
-
-Code blocks:
-```javascript
-// JavaScript example
-function calculateSum(a, b) {
-  return a + b;
-}
-const result = calculateSum(5, 3);
-console.log(result); // Output: 8
+```
+**Bold**, *italic*, ***bold italic***
+Or with underscores: __Bold__, _italic_, ___bold italic___  
+~~Strikethrough~~  
+==Highlight==  
+`Inline code`  
+<sub>Subscript</sub> and <sup>Superscript</sup> (HTML inline allowed)
+Intraword emphasis: foo_bar_ vs foo__bar__.  
+Nested emphasis: *italic **bold** inside*.  
 ```
 
-```python
-# Python example
-def greet(name):
-    return f"Hello, {name}!"
-print(greet("Flowershow"))
+**Bold**, *italic*, ***bold italic***  
+Or with underscores: __Bold__, _italic_, ___bold italic___  
+~~Strikethrough~~  
+==Highlight==  
+`Inline code`  
+<sub>Subscript</sub> and <sup>Superscript</sup> (HTML inline allowed)  
+Intraword emphasis: foo_bar_ vs foo__bar__.  ❌
+Nested emphasis: *italic **bold** inside*.  
+
+## Paragraphs & Line Breaks
+
+```
+This line ends with two spaces to create a hard line break.  
+New paragraph starts here.
 ```
 
-## Tables
+This line ends with two spaces to create a hard line break.  
+New paragraph starts here.
 
-| Book Type | Average Length | Reading Time |
-|-----------|---------------|--------------|
-| Novel | 300 pages | 5 hours |
-| Magazine | 50 pages | 1 hour |
-| Comic Book | 30 pages | 30 minutes |
-| Cookbook | 200 pages | 2 hours |
+```
+This line ends with \ to create a hard line break.\
+New paragraph starts here.
+```
+
+This line ends with \ to create a hard line break.\
+New paragraph starts here.
+
+```
+This line ends with regular line break to create a hard soft break.
+New paragraph starts here.
+```
+
+This line ends with regular line break to create a hard soft break.
+New paragraph starts here.
 
 ## Blockquotes
 
-> Single line quote
-
-> Multi-line quote
-> with multiple paragraphs
-> > Nested quote
-> > > Deeper nested quote
-
-## Links & Embeds
-
-Regular markdown (CommonMark) link:
-```md
-[Visit Flowershow](https://flowershow.app)
 ```
-→ [Visit Flowershow](https://flowershow.app)
-
-Regular markdonw (CommonMark) image embed:
-```md
-![Cat](/assets/image.jpg)
-```
-→
-![Cat](/assets/image.jpg)
-
-## Obsidian Wiki-links
-
-Flowershow supports **Obsidian-style wiki-links** too.
-
-**Shortest-possible path:**
-```md
-[[post-1]]
-```
-→ [[post-1]]
-
-**Absolute path:**
-```md
-[[blog/post-1]]
-```
-→ [[blog/post-1]]
-
-**With an alias:**
-```md
-[[post-1|Alias]]
-```
-→ [[post-1|Alias]]
-
-**File embeds:**
-```md
-![[image.jpg]]
-```
-→ 
-![[image.jpg]]
-
-## Math Equations
-
-```
-Lift($$L$$) can be determined by Lift Coefficient ($$C_L$$) like the following
-equation.
-
-$$
-L = \frac{1}{2} \rho v^2 S C_L
-$$
+> Quote level 1
+>> Quote level 2
 ```
 
-Lift($$L$$) can be determined by Lift Coefficient ($$C_L$$) like the following
-equation.
+> Quote level 1  
+>> Quote level 2  
 
-$$
-L = \frac{1}{2} \rho v^2 S C_L
-$$
+## Thematic breaks
 
-## Mermaid Diagrams
-
-```mermaid
-graph TD
-    A[Start] --> B{Decision}
-    B -->|Yes| C[Do Something]
-    B -->|No| D[Do Nothing]
-    C --> E[End]
-    D --> E
+```
+---
+***
+___
 ```
 
-## Obsidian Callouts
+## Lists
 
-> [!NOTE]
-> This is a note callout
+### Unordered
 
-> [!WARNING]
-> This is a warning callout
+* Item 1
+* Item 2
+  * Nested item 2.1  
+  * Nested item 2.2
+* Item 3
 
-> [!BUG]
-> This is a bug callout
+### Ordered
 
-> [!IMPORTANT]
-> This is an important callout
+1. First
+2. Second  
+   1. Nested 2.1  
+   2. Nested 2.2  
+3. Third
 
-## PDF Embeds
+### Task Lists (GFM)
 
-`![[sample.pdf]]`
+- [x] Completed task
+- [ ] Incomplete
+- [ ] Another
+  - [x] Nested done
+  - [ ] Nested incomplete
 
-![[sample.pdf]]
+## Code
 
-## Footnotes
+### Inline
 
-Here's a sentence with a footnote[^1].
+`console.log("Hello")`
 
-[^1]: This is the footnote content.
+### Indented code blocks
+
+```
+    a simple indented code block
+```
+
+    a simple indented code block
+
+### Fenced code blocks
+
+```
+\`\`\`
+Plain code block with no language
+\`\`\`
+```
+
+```
+Plain code block with no language
+```
+
+```
+~`~`~`
+With tildes
+~`~`~`
+```
+
+~~~
+With tildes
+~~~
+
+js
+```js
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+console.log(greet("world"));
+```
+
+bash
+```bash
+echo "shell test"
+```
+
+## Links
+
+```
+Standard: [Flowershow](https://flowershow.app)
+```
+
+Standard: [Flowershow](https://flowershow.app)
+
+```
+With title: [Flowershow](https://flowershow.app "Title")
+```
+
+With title: [Flowershow](https://flowershow.app "Title")
+
+```
+Autolink (GFM auto-linking): https://flowershow.app
+```
+
+Autolink (GFM auto-linking): https://flowershow.app
+
+```
+Reference link style:  
+[Example][ref-1]
+
+[ref-1]: https://flowershow.app "Flowershow Site"
+```
+
+Reference link style:  
+[Example][ref-1]
+
+[ref-1]: https://flowershow.app "Flowershow Site"
+
+```
+Images:  
+![Flowershow logo](/logo.jpg "Test image")
+```
+
+Images:  
+![Flowershow logo](/logo.jpg "Test image")
+
+## Tables (GFM)
+
+| Column A | Column B | Column C |
+|---|:---:|---:|
+| left | center | right |
+| a | b | c |
+
+## Footnotes (GFM)
+
+```
+Here is a footnote reference.[^1]
+
+[^1]: This is the footnote text.
+```
+
+Here is a footnote reference.[^1]
+
+[^1]: This is the footnote text.
+
+## HTML Blocks
+
+```
+<button style="background: blue; color: white; padding: 8px 14px; border: none; border-radius: 4px; cursor: pointer;">
+  Click me
+</button>
+```
+
+<button style="background: blue; color: white; padding: 8px 14px; border: none; border-radius: 4px; cursor: pointer;">
+  Click me
+</button>
+
+## Escape Characters
+
+```
+\*Not italic\*  
+\# Not heading  
+Backslash test: \\
+```
+
+\*Not italic\*  
+\# Not heading  
+Backslash test: \\
+
+## Emojis (GFM)
+
+👍 🎉 ✅
+
+## YouTube Link Autodetect
+
+https://youtu.be/ZbQRlNm2dww
+
+## Headings
+
+### ATX Headings
+
+```
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+```
+
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
+### Setext Headings
+
+```
+Heading 1
+===============
+
+Heading 2
+---------------
+```
+
+Heading 1
+===============
+
+Heading 2
+---------------
+
+
 
 ## MDX special characters
 
@@ -196,13 +296,3 @@ With Tailwind:
 ```
 
 <span className="text-blue font-bold">This text is red and bold.</span>
-
-## Other
-
-Links auto-linking
-
-https://flowershow.app/
-
-YouTube video auto-embedding
-
-https://youtu.be/ZbQRlNm2dww
