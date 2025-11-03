@@ -161,14 +161,14 @@ Here is a footnote reference.[^1]
 ## HTML Blocks
 
 ```
-<div>
-  <p style="color:blue;">Raw HTML block <strong>test</strong></p>
-</div>
+<button style="background: blue; color: white; padding: 8px 14px; border: none; border-radius: 4px; cursor: pointer;">
+  Click me
+</button>
 ```
 
-<div>
-  <p style="color:blue;">Raw HTML block <strong>test</strong></p>
-</div>
+<button style="background: blue; color: white; padding: 8px 14px; border: none; border-radius: 4px; cursor: pointer;">
+  Click me
+</button>
 
 ## Escape Characters
 
