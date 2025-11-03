@@ -161,13 +161,13 @@ Here is a footnote reference.[^1]
 ## HTML Blocks
 
 ```
-<div style="color:blue;">
-  <strong>Raw HTML block test</strong>
+<div>
+  <p style="color:blue;">Raw HTML block <strong>test</strong></p>
 </div>
 ```
 
-<div style="color:blue;">
-  <strong>Raw HTML block test</strong>
+<div>
+  <p style="color:blue;">Raw HTML block <strong>test</strong></p>
 </div>
 
 ## Escape Characters
