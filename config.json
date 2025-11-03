@@ -29,5 +29,5 @@
           "permanent": false
         }
     ],
-    "markdownRenderer": "auto"
+    "syntaxMode": "auto"
 }
