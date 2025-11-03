@@ -161,14 +161,14 @@ Here is a footnote reference.[^1]
 ## HTML Blocks
 
 ```
-<a href="/" style="background: blue; color: white; padding: 8px 14px; border: none; border-radius: 4px; cursor: pointer;">
+<button style="background: blue; color: white; padding: 8px 14px; border: none; border-radius: 4px; cursor: pointer;">
   Click me
-</a>
+</button>
 ```
 
-<a href="/" style="background: blue; color: white; padding: 8px 14px; border: none; border-radius: 4px; cursor: pointer;">
+<button style="background: blue; color: white; padding: 8px 14px; border: none; border-radius: 4px; cursor: pointer;">
   Click me
-</a>
+</button>
 
 ## Escape Characters
 
