@@ -35,25 +35,68 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 
 ## Obsidian embeds
 
+### Images
+
+**Shortest path:**
+```
+![[image.jpg]] 
+```
+
 <div data-testid="obsidian-embed">
 ![[image.jpg]] 
 </div>
+
+**Absolute path:**
+
+```
+![[assets/image.jpg]] 
+```
 
 <div data-testid="obsidian-embed-absolute">
 ![[assets/image.jpg]] 
 </div>
 
+**With special characters:**
+```
+![[Image With Special Chars %&(1).jpg]]
+```
+
 <div data-testid="obsidian-embed-special-signs">
 ![[Image With Special Chars %&(1).jpg]] 
 </div>
 
+**With dimensions**:
+```
+![[assets/image.jpg|300x200]] 
+```
+
+<div data-testid="obsidian-embed-resized">
+![[assets/image.jpg|300x200]] 
+</div>
+
+### PDF
+
+```
 ![[sample.pdf]]
+```
+
+![[sample.pdf]]
+
+### Video
+
+```
+![[sample.mp4]]
+```
 
 ![[sample.mp4]]
 
-![[sample.mp3]]
+### Audio
 
-![[sample.gif]]
+```
+![[sample.mp3]]
+```
+
+![[sample.mp3]]
 
 ## CommonMark links
 
@@ -96,9 +139,6 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 
 `![mp3](/assets/sample.mp3)`
 ![mp3](/assets/sample.mp3)
-
-`![gif](/assets/sample.gif)`
-![gif](/assets/sample.gif)
 
 </div>
 
