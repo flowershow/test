@@ -66,6 +66,10 @@ New paragraph starts here.
 ___
 ```
 
+---
+***
+___
+
 ## Lists
 
 ### Unordered
