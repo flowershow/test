@@ -258,3 +258,13 @@ Heading 1
 Heading 2
 ---------------
 
+
+| Input | Output | Notes                                         |
+| ----- | ------ | --------------------------------------------- |
+| `>`   | >      | Greater than                                  |
+| `<`   | <      | Less-than                                     |
+| `=>`  | =>     | Greater-than-or-equal                         |
+| `<=`  | <=     | Less-than-or-equal                            |
+
+
+
