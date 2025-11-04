@@ -149,6 +149,8 @@ Autolink (GFM auto-linking): https://flowershow.app
 
 Autolink (GFM auto-linking): https://flowershow.app
 
+Email: ola@example.com
+
 ```
 Reference link style:  
 [Example][ref-1]
