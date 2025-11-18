@@ -218,6 +218,28 @@ Backslash test: \\
 
 👍 🎉 ✅
 
+## Obsidian comments
+
+### Inline comments
+
+```
+This %%word%% is invisible
+```
+
+This %%word%% is invisible
+
+### Multi-line
+
+```
+%%
+This paragraph is not visible
+%%
+```
+
+%%
+This paragraph is not visible
+%%
+
 ## YouTube Link Autodetect
 
 https://youtu.be/ZbQRlNm2dww
@@ -265,6 +287,4 @@ Heading 2
 | `<`   | <      | Less-than                                     |
 | `=>`  | =>     | Greater-than-or-equal                         |
 | `<=`  | <=     | Less-than-or-equal                            |
-
-
 
