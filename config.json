@@ -10,8 +10,7 @@
             {"href": "/docs", "name": "Docs"}
         ],
         "social": [
-            {"href": "https://discord.link/abc", "name": "Discord", "label": "discord" },
-            {"href": "#", "name": "Substack", "label": "substack" }
+            {"href": "https://discord.link/abc", "name": "Discord", "label": "discord" }
         ]
     },
     "showEditLink" : true,
