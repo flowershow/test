@@ -10,7 +10,16 @@
             {"href": "/docs", "name": "Docs"}
         ],
         "social": [
-            {"href": "https://discord.link/abc", "name": "Discord", "label": "discord" }
+            {
+                "href": "https://discord.link/abc",
+                "name": "Discord",
+                "label": "discord"
+            },
+            {
+                "href": "https://github.com/flowershow/test",
+                "name": "Github",
+                "label": "github"
+            }
         ]
     },
     "showEditLink" : true,
