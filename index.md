@@ -5,7 +5,7 @@ showHero: true
 ---
 
 > [!note]
-> This should be displayed as the landing page, not the README
+> This file should be used as the landing page (not README)
 
 ## Title A
 
