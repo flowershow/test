@@ -1,6 +1,7 @@
 ---
 title: Page Title From Frontmatter
 description: Page Description From Frontmatter
+showHero: true
 ---
 
 > [!note]
