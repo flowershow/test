@@ -1,5 +1,6 @@
 # Full Syntax Test (CommonMark + GFM) - Markdown rendering
 
+
 ## Text Formatting
 
 ```
