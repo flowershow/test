@@ -4,52 +4,32 @@
 
 Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki-links, but will also work with Obsidian absolute paths.
 
-<div data-testid="obsidian-wiki-link">
-[[post-1]]
-</div>
+<div data-testid="obsidian-wiki-link">[[post-1]]</div>
 
-<div data-testid="obsidian-wiki-link-absolute">
-[[blog/post-1]]
-</div>
+<div data-testid="obsidian-wiki-link-absolute">[[blog/post-1]]</div>
 
-<div data-testid="obsidian-wiki-link-readme">
-[[README]]
-</div>
+<div data-testid="obsidian-wiki-link-readme">[[README]]</div>
 
-<div data-testid="obsidian-wiki-link-readme-blog">
-[[blog/README]]
-</div>
+<div data-testid="obsidian-wiki-link-readme-blog">[[blog/README]]</div>
 
 <div data-testid="obsidian-wiki-link-special-signs">
-[[Post With Special Chars %&(1)]]
+  [[Post With Special Chars %&(1)]]
 </div>
 
-<div data-testid="obsidian-wiki-link-to-heading">
-[[#Links in JSX blocks]]
-</div>
+<div data-testid="obsidian-wiki-link-to-heading">[[#Links in JSX blocks]]</div>
 
-<div data-testid="obsidian-wiki-link-to-asset">
-[[assets/sample.pdf]]
-</div>
+<div data-testid="obsidian-wiki-link-to-asset">[[assets/sample.pdf]]</div>
 
-<div data-testid="obsidian-wiki-link-case-insensitive">
-[[POST-1]]
-</div>
+<div data-testid="obsidian-wiki-link-case-insensitive">[[POST-1]]</div>
 
 <div data-testid="obsidian-wiki-link-to-file-with-permalink">
-[[post-with-permalink]]
+  [[post-with-permalink]]
 </div>
 
-<div data-testid="obsidian-wiki-link-with-alias">
-[[post-1|My Blog Post]]
-</div>
+<div data-testid="obsidian-wiki-link-with-alias">[[post-1|Some Alias]]</div>
 
 <div data-testid="obsidian-wiki-link-to-post-with-dots">
-[[post.with.dots.in.file.name]]
-</div>
-
-<div data-testid="obsidian-wiki-link-with-alias">
-[[post-1|Some Alias]]
+  [[post.with.dots.in.file.name]]
 </div>
 
 ## Obsidian embeds
@@ -57,41 +37,38 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ### Images
 
 **Shortest path:**
+
 ```
-![[image.jpg]] 
+![[image.jpg]]
 ```
 
-<div data-testid="obsidian-embed">
-![[image.jpg]] 
-</div>
+<div data-testid="obsidian-embed">![[image.jpg]]</div>
 
 **Absolute path:**
 
 ```
-![[assets/image.jpg]] 
+![[assets/image.jpg]]
 ```
 
-<div data-testid="obsidian-embed-absolute">
-![[assets/image.jpg]] 
-</div>
+<div data-testid="obsidian-embed-absolute">![[assets/image.jpg]]</div>
 
 **With special characters:**
+
 ```
 ![[Image With Special Chars %&(1).jpg]]
 ```
 
 <div data-testid="obsidian-embed-special-signs">
-![[Image With Special Chars %&(1).jpg]] 
+  ![[Image With Special Chars %&(1).jpg]]
 </div>
 
 **With dimensions**:
+
 ```
-![[assets/image.jpg|300x200]] 
+![[assets/image.jpg|300x200]]
 ```
 
-<div data-testid="obsidian-embed-resized">
-![[assets/image.jpg|300x200]] 
-</div>
+<div data-testid="obsidian-embed-resized">![[assets/image.jpg|300x200]]</div>
 
 ### PDF
 
@@ -172,7 +149,5 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ## Links in JSX blocks
 
 <div data-testid="jsx-img">
-  <img alt="Image" src="/assets/image.jpg"/>
+  <img alt="Image" src="/assets/image.jpg" />
 </div>
-
-
