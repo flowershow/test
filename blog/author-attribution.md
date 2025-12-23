@@ -3,6 +3,7 @@ title: Author attribution
 authors:
   - Jan Kowalski
   - john-doe
+date: 2025-09-12
 ---
 
 This page has the following in the frontmatter:
