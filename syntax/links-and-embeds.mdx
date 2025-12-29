@@ -10,9 +10,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 [[post-1]]
 ```
 
-<div data-testid="obsidian-wiki-link-shortest">
-[[post-1]]
-</div>
+<div data-testid="obsidian-wiki-link-shortest">[[post-1]]</div>
 
 **Wiki-link with absolute path:**
 
@@ -20,9 +18,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 [[blog/post-1]]
 ```
 
-<div data-testid="obsidian-wiki-link-absolute">
-[[blog/post-1]]
-</div>
+<div data-testid="obsidian-wiki-link-absolute">[[blog/post-1]]</div>
 
 **Wiki-link to root README:**
 
@@ -30,9 +26,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 [[README]]
 ```
 
-<div data-testid="obsidian-wiki-link-root-readme">
-[[README]]
-</div>
+<div data-testid="obsidian-wiki-link-root-readme">[[README]]</div>
 
 **Wiki-link to README in blog folder:**
 
@@ -40,9 +34,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 [[blog/README]]
 ```
 
-<div data-testid="obsidian-wiki-link-blog-readme">
-[[blog/README]]
-</div>
+<div data-testid="obsidian-wiki-link-blog-readme">[[blog/README]]</div>
 
 **Wiki-link with special characters:**
 
@@ -51,17 +43,27 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="obsidian-wiki-link-special-chars">
-[[Post With.Special.Chars %&(1)]]
+  [[Post With.Special.Chars %&(1)]]
 </div>
 
-**Wiki-link to heading:**
+**Wiki-link to heading on the same page:**
 
 ```
-[[#Links in JSX blocks]]
+[[#Obsidian embeds]]
 ```
 
-<div data-testid="obsidian-wiki-link-heading">
-[[#Links in JSX blocks]]
+<div data-testid="obsidian-wiki-link-heading-same-page">
+  [[#Obsidian embeds]]
+</div>
+
+**Wiki-link to heading on another page:**
+
+```
+[[syntax/syntax#Text Formatting]]
+```
+
+<div data-testid="obsidian-wiki-link-heading-another-page">
+  [[syntax/syntax#Text Formatting]]
 </div>
 
 **Wiki-link to asset:**
@@ -70,9 +72,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 [[assets/sample.pdf]]
 ```
 
-<div data-testid="obsidian-wiki-link-asset">
-[[assets/sample.pdf]]
-</div>
+<div data-testid="obsidian-wiki-link-asset">[[assets/sample.pdf]]</div>
 
 **Wiki-link case insensitive:**
 
@@ -80,9 +80,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 [[POST-1]]
 ```
 
-<div data-testid="obsidian-wiki-link-case">
-[[POST-1]]
-</div>
+<div data-testid="obsidian-wiki-link-case">[[POST-1]]</div>
 
 **Wiki-link to file with permalink:**
 
@@ -91,7 +89,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="obsidian-wiki-link-file-with-permalink">
-[[post-with-permalink]]
+  [[post-with-permalink]]
 </div>
 
 **Wiki-link with alias:**
@@ -100,9 +98,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 [[post-1|Some Alias]]
 ```
 
-<div data-testid="obsidian-wiki-link-alias">
-[[post-1|Some Alias]]
-</div>
+<div data-testid="obsidian-wiki-link-alias">[[post-1|Some Alias]]</div>
 
 ## Obsidian embeds
 
@@ -114,9 +110,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ![[image.jpg]]
 ```
 
-<div data-testid="obsidian-embed-shortest">
-![[image.jpg]]
-</div>
+<div data-testid="obsidian-embed-shortest">![[image.jpg]]</div>
 
 **Absolute path:**
 
@@ -124,9 +118,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ![[assets/image.jpg]]
 ```
 
-<div data-testid="obsidian-embed-absolute">
-![[assets/image.jpg]]
-</div>
+<div data-testid="obsidian-embed-absolute">![[assets/image.jpg]]</div>
 
 **With special characters:**
 
@@ -135,7 +127,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="obsidian-embed-special-chars">
-![[Image With Special Chars %&(1).jpg]]
+  ![[Image With Special Chars %&(1).jpg]]
 </div>
 
 **With dimensions**:
@@ -145,7 +137,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="obsidian-embed-width-and-height">
-![[assets/image.jpg|300x200]]
+  ![[assets/image.jpg|300x200]]
 </div>
 
 **With width only:**
@@ -154,9 +146,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ![[assets/image.jpg|300]]
 ```
 
-<div data-testid="obsidian-embed-width-only">
-![[assets/image.jpg|300]]
-</div>
+<div data-testid="obsidian-embed-width-only">![[assets/image.jpg|300]]</div>
 
 ### PDF
 
@@ -166,9 +156,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ![[sample.pdf]]
 ```
 
-<div data-testid="obsidian-embed-pdf">
-![[sample.pdf]]
-</div>
+<div data-testid="obsidian-embed-pdf">![[sample.pdf]]</div>
 
 ### Video
 
@@ -178,9 +166,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ![[sample.mp4]]
 ```
 
-<div data-testid="obsidian-embed-video">
-![[sample.mp4]]
-</div>
+<div data-testid="obsidian-embed-video">![[sample.mp4]]</div>
 
 ### Audio
 
@@ -190,9 +176,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ![[sample.mp3]]
 ```
 
-<div data-testid="obsidian-embed-audio">
-![[sample.mp3]]
-</div>
+<div data-testid="obsidian-embed-audio">![[sample.mp3]]</div>
 
 ## CommonMark links
 
@@ -203,7 +187,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="common-mark-link-absolute">
-[/blog/post-1](/blog/post-1.md)
+  [/blog/post-1](/blog/post-1.md)
 </div>
 
 **Relative path link:**
@@ -212,9 +196,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 [syntax](syntax.md)
 ```
 
-<div data-testid="common-mark-link-relative">
-[syntax](syntax.md)
-</div>
+<div data-testid="common-mark-link-relative">[syntax](syntax.md)</div>
 
 **Relative path link with dot-slash:**
 
@@ -223,7 +205,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="common-mark-link-relative-dot-slash">
-[./syntax](./syntax.md)
+  [./syntax](./syntax.md)
 </div>
 
 **Link to root README with absolute path:**
@@ -233,7 +215,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="common-mark-link-root-readme-absolute">
-[/README](/README.md)
+  [/README](/README.md)
 </div>
 
 **Link to parent directory README:**
@@ -243,7 +225,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="common-mark-link-parent-readme">
-[../README](../README.md)
+  [../README](../README.md)
 </div>
 
 **External link:**
@@ -253,7 +235,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="common-mark-link-external">
-[External link](https://example.com)
+  [External link](https://example.com)
 </div>
 
 **Link to heading:**
@@ -263,7 +245,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="common-mark-link-heading">
-[#Links%20in%20JSX%20blocks](#Links%20in%20JSX%20blocks)
+  [#Links%20in%20JSX%20blocks](#Links%20in%20JSX%20blocks)
 </div>
 
 **Link to asset:**
@@ -272,9 +254,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 [sample](/assets/sample.pdf)
 ```
 
-<div data-testid="common-mark-link-asset">
-[sample](/assets/sample.pdf)
-</div>
+<div data-testid="common-mark-link-asset">[sample](/assets/sample.pdf)</div>
 
 **Link with spaces in path:**
 
@@ -283,7 +263,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="common-mark-link-with-spaces">
-[with spaces](/some/path/with%20spaces.md)
+  [with spaces](/some/path/with%20spaces.md)
 </div>
 
 **Link with special characters:**
@@ -293,7 +273,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="common-mark-link-special-chars">
-[link](/blog/café&restaurant!)
+  [link](/blog/café&restaurant!)
 </div>
 
 ## CommonMark embeds
@@ -305,7 +285,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="common-mark-embed">
-![/assets/image.jpg](/assets/image.jpg)
+  ![/assets/image.jpg](/assets/image.jpg)
 </div>
 
 **CommonMark embed with dimensions:**
@@ -315,7 +295,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="common-mark-embed-width-and-height">
-![100x200](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
+  ![100x200](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
 </div>
 
 **CommonMark embed with width only:**
@@ -325,7 +305,7 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 ```
 
 <div data-testid="common-mark-embed-width-only">
-![150](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
+  ![150](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
 </div>
 
 ## Test Table with Wiki Link Alias
