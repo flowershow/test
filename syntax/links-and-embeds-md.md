@@ -1,4 +1,4 @@
-# Links and embeds
+# Links and embeds - Markdown Rendering
 
 ## Obsidian wiki-links
 
