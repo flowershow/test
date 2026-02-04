@@ -25,6 +25,11 @@
         "href": "https://github.com/flowershow/test",
         "name": "Github",
         "label": "github"
+      },
+      {
+        "href": "mailto:myemail@mail.com",
+        "name": "Mail",
+        "label": "mail"
       }
     ]
   },
