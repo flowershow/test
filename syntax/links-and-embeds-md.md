@@ -282,12 +282,12 @@ Note: Flowershow is configured to work with Obsidian shortest-path-possible wiki
 | Column 1 | Column 2                          | Column 3 |
 | -------- | --------------------------------- | -------- |
 | Data 1   | [[post-1]]                        | Data 3   |
-| Data 4   | [[post-1|Link with Alias]]       | Data 6   |
+| Data 4   | [[post-1\|Link with Alias]]       | Data 6   |
 | Data 7   | [[Post With.Special.Chars %&(1)]] | Data 9   |
 ```
 
 | Column 1 | Column 2                          | Column 3 |
 | -------- | --------------------------------- | -------- |
 | Data 1   | [[post-1]]                        | Data 3   |
-| Data 4   | [[post-1|Link with Alias]]       | Data 6   |
+| Data 4   | [[post-1\|Link with Alias]]       | Data 6   |
 | Data 7   | [[Post With.Special.Chars %&(1)]] | Data 9   |
