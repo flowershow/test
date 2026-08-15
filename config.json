@@ -3,7 +3,6 @@
   "title": "Test site title",
   "description": "Test site description",
   "logo": "logo.jpg",
-  "head": "<script async src=\"https://tally.so/widgets/embed.js\"></script>",
   "nav": {
     "title": "SiteName",
     "links": [
