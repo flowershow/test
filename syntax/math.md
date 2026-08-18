@@ -3,6 +3,16 @@
 ## Inline
 
 ```
+Energy is $E = mc^2$ here.
+```
+
+**Renders as:**
+
+Energy is $E = mc^2$ here.
+
+OR
+
+```
 Energy is $$E = mc^2$$ here.
 ```
 
