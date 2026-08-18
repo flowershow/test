@@ -1,6 +1,6 @@
 # Math
 
-## Inline
+## Inline single dollar
 
 ```
 Energy is $E = mc^2$ here.
@@ -10,24 +10,26 @@ Energy is $E = mc^2$ here.
 
 Energy is $E = mc^2$ here.
 
-OR
+## Inline double dollar
 
 ```
 Energy is $$E = mc^2$$ here.
 ```
-
-OR
-
-```
-$$E = mc^2$$
-```
-
-$$E = mc^2$$
-
 
 **Renders as:**
 
 Energy is $$E = mc^2$$ here.
+
+## Inline double dollar separate
+
+```
+$$E = mc^2$$
+```
+
+**Renders as:**
+
+$$E = mc^2$$
+
 
 ## Block
 
