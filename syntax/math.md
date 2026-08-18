@@ -16,6 +16,15 @@ OR
 Energy is $$E = mc^2$$ here.
 ```
 
+OR
+
+```
+$$E = mc^2$$
+```
+
+$$E = mc^2$$
+
+
 **Renders as:**
 
 Energy is $$E = mc^2$$ here.
