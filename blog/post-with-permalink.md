@@ -1,5 +1,6 @@
 ---
 permalink: different/url
+tags: [abc, xyz]
 ---
 
 # Post with permalink
